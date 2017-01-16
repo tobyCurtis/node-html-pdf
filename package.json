@@ -1,5 +1,5 @@
 {
-  "name": "html-pdf",
+  "name": "html-pdf-campaigns",
   "version": "2.1.0",
   "description": "HTML to PDF converter that uses phantomjs",
   "engines": {
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/marcbachmann/node-html-pdf.git"
+    "url": "git://github.com/tobyCurtis/node-html-pdf.git"
   },
   "keywords": [
     "html",
