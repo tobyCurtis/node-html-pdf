@@ -1,22 +1,11 @@
 {
   "name": "html-pdf-campaigns",
-  "version": "2.1.0",
+  "version": "2.1.5",
   "description": "HTML to PDF converter that uses phantomjs",
   "engines": {
     "node": ">=4.0.0"
   },
   "main": "lib/index.js",
-  "directories": {
-    "test": "test"
-  },
-  "bin": {
-    "html-pdf": "bin/index.js"
-  },
-  "scripts": {
-    "standard": "standard bin/index.js",
-    "test": "npm run standard && node test/index.js"
-  },
-  "author": "Marc Bachmann",
   "license": "MIT",
   "devDependencies": {
     "coffee-script": "^1.7.1",
@@ -26,20 +15,5 @@
   },
   "optionalDependencies": {
     "phantomjs-prebuilt": "^2.1.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tobyCurtis/node-html-pdf.git"
-  },
-  "keywords": [
-    "html",
-    "pdf",
-    "phantom",
-    "phantomjs",
-    "nodejs"
-  ],
-  "bugs": {
-    "url": "https://github.com/marcbachmann/node-html-pdf/issues"
-  },
-  "homepage": "https://github.com/marcbachmann/node-html-pdf"
+  }
 }
